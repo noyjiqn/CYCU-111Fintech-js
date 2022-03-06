@@ -1,0 +1,143 @@
+=================3/4=======================
+light practice
+=IF(AND(A2>=0,A2<=119),"Dark room",IF(A2<=249,"Dimmed room",IF(A2<=999,"Bright room",IF(A2<=4999,"Cloudy",IF(A2>=5000,"Sunny","")))))
+=IF(A11>=5000, "Sunny", IF(A11 >= 1000, "Cloudy", IF(A11 >= 250, "Bright room", IF(A11 >= 120, "Dimmed room", IF(A11 >= 0, "Dark room")))))
+=IF(A13 <=119, "Dark room", IF(A13 <= 249, "Dimmed room", IF(A13 <= 999, "Bright room", IF(A13 <=4999, "Cloudy", IF(A13>= 0, "sunny")))))
+
+---------------JavaScript_Part 1------------------------
+1.(c)
+We would like to get the "remainder" by using JavaScript? Which symbol is correct?
+(a) Mod  (b) $  (c) % (d )&
+
+2.(b)
+We would like to put a number into the "Array" by using JavaScript? Which word is correct?
+(a) pull (b)push (c) plus (d) play
+
+3.(c)
+Output:
+20 is even
+Codes:
+n=20;
+  if(n%AAA BBB 0){
+    document.write(n+" is odd");
+  }else{
+    document.write(n+" is even");
+What is "AAA"?
+(a)0
+(b)1 
+(c)2 
+(d)3
+
+4.(b)
+Output:
+20 is even
+Codes:
+n=20;
+  if(n%AAA BBB 0){
+    document.write(n+" is odd");
+  }else{
+    document.write(n+" is even");
+What is "BBB"?
+(a)=
+(b)==
+(c)!=
+(d)<>
+
+5.(d)
+Output:
+1,3,5,7,9,11,13,15,17,19
+Codes:
+n=20;
+x=[];
+document.write(x);
+for(i=1;i<=n;i++){
+  if(i%2!=0){
+    x.AAA(i);
+  }
+}
+document.write(x);
+What is "AAA"?
+(a)get
+(b)+
+(c)plus
+(d)push
+
+6.(d)
+Which one is correct about JavaScript programming language description?
+(a)It can not be used to build a mobile APP
+(b)It is the same with Java
+(c)It can not be embedded in HTML
+(d)It is a kind of front-end language
+
+7.(b)
+Which one is correct about JavaScript code comment?
+(a)*
+(b)//
+(c)#
+(d)$
+
+8.(d)
+JavaScript code:
+s=0;
+n=5;
+for(i=1;i<=n;i++){
+  AAA;
+}
+Output:
+1
+2
+3
+4
+5
+What is the "AAA"?
+(a)document.write (i)
+(b)document.write ("i+< br >")
+(c)document.write (i+"br")
+(d)document.write (i+"< br >")
+
+9.(b)
+Calculate 1*2*3*4*5
+s=AAA;
+for(i=1;i<=5;i++){
+  s=BBB*i;
+}
+document.write(s);
+What is the "AAA"?
+(a)0
+(b)1
+(c)""
+(d)5
+
+10.(d)
+Calculate 1*2*3*4*5
+s=AAA;
+for(i=1;i<=5;i++){
+  s=BBB*i;
+}
+document.write(s);
+What is the "BBB"?
+(a)0
+(b)1
+(c)i
+(d)s
+
+11.(b)
+在大數據分析領域裡面, 所謂5Vs, 以下何者是正確的?
+(a)Various
+(b)Velocity
+(c)Version
+(d)Volatile
+
+12.(b)
+在大數據分析領域裡面, 5Vs之中的速度效果, 以下何者是正確的?
+(a)Various
+(b)Velocity
+(c)Version
+(d)Volatile
+
+13.(d)
+在大數據分析領域裡面, 5Vs之中的最重要元素, 以下何者是正確的?
+(a)Various
+(b)Velocity
+(c)Version
+(d)Value
