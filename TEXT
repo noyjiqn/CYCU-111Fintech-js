@@ -2,7 +2,7 @@
 light practice
 =IF(AND(A2>=0,A2<=119),"Dark room",IF(A2<=249,"Dimmed room",IF(A2<=999,"Bright room",IF(A2<=4999,"Cloudy",IF(A2>=5000,"Sunny","")))))
 =IF(A11>=5000, "Sunny", IF(A11 >= 1000, "Cloudy", IF(A11 >= 250, "Bright room", IF(A11 >= 120, "Dimmed room", IF(A11 >= 0, "Dark room")))))
-=IF(A13 <=119, "Dark room", IF(A13 <= 249, "Dimmed room", IF(A13 <= 999, "Bright room", IF(A13 <=4999, "Cloudy", IF(A13>= 0, "sunny")))))
+=IF(A13 <=119, "Dark room", IF(A13 <= 249, "Dimmed room", IF(A13 <= 999, "Bright room", IF(A13 <=4999, "Cloudy", IF(A13>= 50000, "sunny")))))
 
 ---------------JavaScript_Part 1------------------------
 1.(c)
