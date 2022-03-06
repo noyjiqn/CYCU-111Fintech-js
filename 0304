@@ -1,0 +1,89 @@
+x=1;
+y=2
+z=x+y
+document.write(z+"<br>")
+//====== Practice 1======
+//for 迴圈語法calculate 1 + 2 + 3 + 4 + 5
+n = 5;
+s = 0;
+for(i = 1; i <= n; i++){
+  s=s+i
+  }
+document.write(s + "<br>")
+//---------------------------------
+//====== Practice 2 ======
+//calculate 1 * 2 * 3 * 4 * 5
+n = 5;
+s = 1;
+for(i = 1; i <= n; i++){
+  s=s*i
+ }
+document.write(s + "<br>")
+
+//---------------------------------
+n = 5;
+s = 1;
+for(i = 1; i <= n; i++){
+  s=s*i
+ }
+document.write("1+2+...*"+n+"="+s + "<br>")
+
+//---------------------------------
+s = 1;
+t = "";
+for(i = 1; i <= n; i++){
+  s=s*i
+  t= t + i
+  if(i < 5){
+    t = t + " * "
+  }
+}
+document.write(t + " = " + s+ "<br>")
+
+//---------------------------------
+//====== Practice 3 ======
+//calculate if...else 語法
+x=20;
+k=x%2;
+if(k==0){
+  document.write(x+"is even <br>")
+}
+else{
+  document.write(x+"is odd<br>")
+}
+//---------------------------------
+//====== Practice 4 ======
+//calculate 陣列  "阻止作用域"。const
+ const cars = [];
+cars[0]= "Saab";
+cars[1]= "Volvo";
+cars[2]= "BMW";
+document.write(cars+"<br>")
+
+//calculate 陣列 Array push( )
+x=[]
+for(i=1;i<=10;i++){
+   x.push(i)
+  }
+  document.write(x+"<br>")
+//--------------添加到陣列的末尾-------------------
+fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("Kiwi", "Lemon");
+ document.write(fruits+"<br>")
+ document.write(fruits[2]+"<br>")
+//-------------顯示基數--------------------
+z=[];
+n=100
+for(i=0;i<=n;i++){
+  if(i%2==1){
+    z.push(i)
+    }
+  }
+document.write(z)
+//------------------------------------------------
+n=100
+for(i=1;i<=n;i++){
+  if(i%2==1){
+    document.write(i+",")
+  }
+}
